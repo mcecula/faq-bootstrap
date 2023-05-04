@@ -1,0 +1,21 @@
+hr {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.accordion-button {
+    display: block;
+    text-align: center;
+    color: orange;
+}
+
+.accordion-button:hover:focus {
+    text-decoration: underline;
+    color: gray;
+}
+
+
+.accordion-button:not(.collapsed) {
+    text-decoration: underline;
+    color: orange;
+}
